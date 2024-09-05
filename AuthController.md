@@ -1,17 +1,17 @@
 1. Signup new user
 * POST
-* path: /api/auth/signin
+* path: ```/api/auth/signin```
 * Example body:
 
 ``` json
 {
 	"firstName": "Mieczysław",
-    "lastName": "Nowak",
-    "username": "Operator7",
-    "email": "test7@test.pl",
-    "role": "ROLE_FARM_MANAGER",
-    "password": "123456",
-    "phoneNumber": "697122470"
+	"lastName": "Nowak",
+	"username": "Operator7",
+	 "email": "test7@test.pl",
+	"role": "ROLE_FARM_MANAGER",
+	"password": "123456",
+	"phoneNumber": "697122470"
 }
 ```
 
@@ -35,7 +35,7 @@
 
 3.Singout any user
 * POST
-* path: /api/auth/signout
+* path: ```/api/auth/signout```
 * Example body: NONE
 
 <img width="849" alt="Zrzut ekranu 2024-09-4 o 21 43 16" src="https://github.com/user-attachments/assets/1481c26e-7aeb-4d8e-bef5-4c0ecf4cd0d7">
