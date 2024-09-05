@@ -8,7 +8,7 @@
 	"firstName": "Mieczysław",
 	"lastName": "Nowak",
 	"username": "Operator7",
-	 "email": "test7@test.pl",
+	"email": "test7@test.pl",
 	"role": "ROLE_FARM_MANAGER",
 	"password": "123456",
 	"phoneNumber": "697122470"
