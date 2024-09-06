@@ -1,6 +1,6 @@
 # 1. Signup new user
 * POST
-* path: ```/api/auth/signin```
+* path: ```/api/auth/signup```
 * Example body:
 
 ``` json
