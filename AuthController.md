@@ -25,13 +25,13 @@
 ``` json
 {
 	"firstName": "Mieczysław",
-    "lastName": "Nowak",
-    "username": "Operator9",
-    "email": "test9@test.pl",
-    "password": "123456",
-    "phoneNumber": "697122472",
-    "farmName": "Zielone pola",
-    "activationCode": "0y4U1SaR"
+	"lastName": "Nowak",
+	"username": "Operator9",
+	"email": "test9@test.pl",
+	"password": "123456",
+	"phoneNumber": "697122472",
+	"farmName": "Zielone pola",
+	"activationCode": "0y4U1SaR"
 }
 ```
 <img width="400" alt="Zrzut ekranu 2024-09-9 o 17 35 29" src="https://github.com/user-attachments/assets/3ac7b4da-ae6a-4707-a94a-ffdd93a776af">
