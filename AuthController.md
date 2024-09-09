@@ -1,7 +1,7 @@
-# 2. Signup new Farm with User
+# 1. Signup new Farm with farm manager
 * POST
 * path: ```/api/auth/signupfarm ```
-* Required role: ```ROLE_FARM_MANAGER```
+* Required role: NONE
 * Example body:
 
 ``` json
