@@ -57,7 +57,7 @@
 <img width="400" alt="Zrzut ekranu 2024-09-4 o 21 13 06" src="https://github.com/user-attachments/assets/d8d94b06-4f56-480a-90b6-4df4e71a0b72">
 
 
-# 4.Singout any user
+# 4.Signout any user
 * POST
 * path: ```/api/auth/signout```
 * Required role: NONE
