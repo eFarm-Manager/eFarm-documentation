@@ -16,9 +16,29 @@
 ```
 
 <img width="400" alt="Zrzut ekranu 2024-09-4 o 21 07 25" src="https://github.com/user-attachments/assets/67c288b5-8f89-4fbf-b658-3f102e9e0017">
+ 
+# 2. Signup new Farm
+* POST
+* path: ```/api/auth/signupfarm ```
+* Example body:
+
+``` json
+{
+	"firstName": "Mieczysław",
+    "lastName": "Nowak",
+    "username": "Operator9",
+    "email": "test9@test.pl",
+    "password": "123456",
+    "phoneNumber": "697122472",
+    "farmName": "Zielone pola",
+    "activationCode": "0y4U1SaR"
+}
+```
+<img width="400" alt="Zrzut ekranu 2024-09-9 o 17 35 29" src="https://github.com/user-attachments/assets/3ac7b4da-ae6a-4707-a94a-ffdd93a776af">
 
 
-# 2.Signin any user
+
+# 3.Signin any user
 * POST
 * path: ```/api/auth/signin```
 * Example body:
@@ -33,7 +53,7 @@
 <img width="400" alt="Zrzut ekranu 2024-09-4 o 21 13 06" src="https://github.com/user-attachments/assets/d8d94b06-4f56-480a-90b6-4df4e71a0b72">
 
 
-# 3.Singout any user
+# 4.Singout any user
 * POST
 * path: ```/api/auth/signout```
 * Example body: NONE
