@@ -22,7 +22,7 @@
 # 2. Signup new user
 * POST
 * path: ```/api/auth/signup```
-*  Required role: ```ROLE_FARM_MANAGER```
+*  Required role: ```ROLE_FARM_MANAGER``` or ```ROLE_FARM_OWNER```
 * Example body:
 
 ``` json
