@@ -55,7 +55,7 @@
 ```
 
 * Description:
-   - if days to expiration <= 14 then we have massage ```expireCodeInfo```, which should be show on frontend
+   - if days to expiration <= 14 then we have massage ```expireCodeInfo```, which should be shown on frontend (in the other situations it is ```null```)
    - if activationCode expired then we have http status 403 and info about expired code, then should be use ```location``` parameter to redirect on frontend to ```/api/auth/update-activation-code```
 
 <img width="400" alt="Zrzut ekranu 2024-09-18 o 23 03 52" src="https://github.com/user-attachments/assets/275debab-cab6-4968-86aa-24c18356a51d">
