@@ -54,7 +54,8 @@
 }
 ```
 
-<img width="400" alt="Zrzut ekranu 2024-09-4 o 21 13 06" src="https://github.com/user-attachments/assets/d8d94b06-4f56-480a-90b6-4df4e71a0b72">
+<img width="400" alt="Zrzut ekranu 2024-09-18 o 23 03 52" src="https://github.com/user-attachments/assets/275debab-cab6-4968-86aa-24c18356a51d">
+
 
 
 # 4.Signout any user
