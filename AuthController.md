@@ -54,11 +54,11 @@
 }
 ```
 
-<img width="400" alt="Zrzut ekranu 2024-09-18 o 23 03 52" src="https://github.com/user-attachments/assets/275debab-cab6-4968-86aa-24c18356a51d">
-
 * Description:
    - if days to expiration < 14 then we have massage ```expireCodeInfo```, which should be show on frontend
    - if activationCode expired then we have http status 403 and info about expired code, then should be use ```location``` parameter to redirect on frontend to ```/api/auth/update-activation-code```
+
+<img width="400" alt="Zrzut ekranu 2024-09-18 o 23 03 52" src="https://github.com/user-attachments/assets/275debab-cab6-4968-86aa-24c18356a51d">
      
   ![Zrzut ekranu 2024-09-19 o 20 32 19](https://github.com/user-attachments/assets/a0052e45-87c7-4afd-b6db-cf7c88a82aa0)
 
