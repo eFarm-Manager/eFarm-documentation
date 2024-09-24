@@ -11,3 +11,4 @@
 11. nie znajduje kodu aktywacyjnego przez farm id
 12. powinno zmienic kod aktywacyjny
 13. jezeli cos nie tak z kodem np. zuzyty to wylapuje bad request
+14. blokuje uzytkownika jezeli za duzo prob logowania ze zmienionym kodem aktywacyjnym
