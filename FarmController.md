@@ -19,4 +19,20 @@
 * Description:
    - if user has Role "ROLE_FARM_OWNER" then have all info about farm (with expireCodeDate)
    - if user has Role "ROLE_FARM_MANAGER" then have information with expireCodeDate set as null
+ 
+# 3. UPDATE farm details
+* PUT
+* path: ```/api/farm/details```
+* Required role: ```"ROLE_FARM_OWNER"```
+* Example body:
+``` json
+{
+    "farmName": "Zielone sady południa",
+    "farmNumber": "123456",
+    "zipCode": "22-400"
+}
+```
+<img width="400" alt="Zrzut ekranu 2024-09-25 o 23 01 53" src="https://github.com/user-attachments/assets/41962e0f-f88f-4104-b9e9-821fcb5f8614">
+
+
 
