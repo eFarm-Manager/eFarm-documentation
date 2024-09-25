@@ -15,3 +15,8 @@
 * Example body: NONE
 
   <img width="400" alt="Zrzut ekranu 2024-09-25 o 23 01 53" src="https://github.com/user-attachments/assets/ef76075a-75fe-4f08-ae8a-95eab60bdfc1">
+
+* Description:
+   - if user has Role "ROLE_FARM_OWNER" then have all info about farm (with expireCodeDate)
+   - if user has Role "ROLE_FARM_MANAGER" then have information with expireCodeDate set as null
+
