@@ -5,6 +5,14 @@
 * Example body: NONE
 * Request param:
   - Optional string: ```searchQuery```
-  - Optional boolean: ```onlyAvailable```
+ 
+<img width="400" alt="Zrzut ekranu 2024-10-1 o 20 17 08" src="https://github.com/user-attachments/assets/2d603c16-0a9e-4bb2-b47e-0116c5bc9a91">
 
-<img width="400" alt="Zrzut ekranu 2024-09-29 o 16 05 48" src="https://github.com/user-attachments/assets/47111e34-f322-4a23-8a0c-07dd0adbea2b">
+
+# 2. GET farm equipment details
+* GET
+* path: ```/api/equipment/{equipmentId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body: NONE
+
+<img width="400" alt="Zrzut ekranu 2024-10-1 o 20 15 25" src="https://github.com/user-attachments/assets/0bae42e0-8b83-494a-b468-9c7c560f96aa">
