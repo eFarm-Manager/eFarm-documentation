@@ -83,7 +83,22 @@
 ![Zrzut ekranu 2024-09-19 o 20 31 20](https://github.com/user-attachments/assets/f1142aa3-3019-4acd-a6cc-ce32a5e02f17)
 
 
-# 5.Signout any user
+# 5.Update activation code by logged Owner
+* PUT
+* path: ```/api/auth/update-activation-code```
+* Required role: ROLE_FARM_OWNER
+* Example body: 
+
+``` json
+{
+	"password": "123456",
+	"newActivationCode": "G4Yu78jh"
+}
+```
+<img width="400" alt="Zrzut ekranu 2024-10-2 o 11 00 53" src="https://github.com/user-attachments/assets/e92fb735-4d12-4d49-90a8-5d90fa73b6fd">
+
+
+# 6.Signout any user
 * POST
 * path: ```/api/auth/signout```
 * Required role: NONE
