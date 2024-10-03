@@ -17,3 +17,9 @@
 17. poprawnie robi aktualizacje kodu aktywacyjnego dla ownera
 18. jezeli nie onwer to brak uprawnien
 19. zwraca bad request jezeli update sie nie uda
+20. poprawnie aktualizuje kod gdy haslo jest poprawne i nie ma bledow validacyjnych
+21. zwraca unauthorized gdy haslo jest nie poprawne
+22. zwraca bad request gdy sa bledy validacyjne przy zmianie kodu
+23. poprawnie zmienia haslo
+24. zwraca unauthorized hdy obecne haslo jest nie poprawne
+25. zwraca bad request gdy sa bledy validacyjne przy zmianie hasla
