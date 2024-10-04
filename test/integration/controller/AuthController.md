@@ -17,3 +17,9 @@
 17. niepoprawny signin z kodem przez managera(operator bylby to samo)
 18. niepoprawny signin z kodem przez niepoprawny kod
 19. zablokowana zmiana kodu przez zbyt wiele prob
+20. zmiana kodu przez zalogowanego ownera
+21. niepoprawna zmiana kodu przez zalogowanego ownera przez zle haslo
+22. niepoprawna zmiana kodu przez zalogowanego ownera przez zly kod
+23. zmiana hasla poprzez zalogowanego uzytkownika
+24. niepoprawna zmiana hasla poprzez zalogowanego uzytkownika przez zle obecne haslo
+25. niepoprawna zmiana hasla poprzez zalogowanego uzytkownika przez obecne i nowe haslo sa te same
