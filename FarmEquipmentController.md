@@ -16,3 +16,12 @@
 * Example body: NONE
 
 <img width="400" alt="Zrzut ekranu 2024-10-1 o 20 15 25" src="https://github.com/user-attachments/assets/0bae42e0-8b83-494a-b468-9c7c560f96aa">
+
+# 3. GET equipment categories
+* GET
+* path: ```/api/equipment/categories```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER``` 
+* Example body: NONE
+
+  <img width="400" alt="Zrzut ekranu 2024-10-5 o 13 34 19" src="https://github.com/user-attachments/assets/242d0196-14d9-42fe-8474-d48595ceb709">
+
