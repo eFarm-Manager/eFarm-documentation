@@ -22,7 +22,8 @@
 * path: ```/api/equipment/new```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
 * Example body:
-  ```json
+  
+``` json
 {
     "equipmentName": "Ładowarka Komatsu",
     "category": "Ładowarki kołowe",
@@ -33,7 +34,7 @@
     "insuranceExpirationDate": "2027-04-04",
     "inspectionExpireDate": "2026-04-16"
 }
-  ```
+```
 
 <img width="400" alt="Zrzut ekranu 2024-10-6 o 14 29 23" src="https://github.com/user-attachments/assets/ffcb6611-9eb4-43d1-8d5c-c57a66477c9e">
 
@@ -43,7 +44,7 @@
 * path: ```/api/equipment/{equipmentId}```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
 * Example body:
-  ``` json
+``` json
 {
     "equipmentName": "Ładowarka Komatsu",
     "brand": "Komatsu",
@@ -55,7 +56,7 @@
     "insuranceExpirationDate": "2027-05-20",
     "inspectionExpireDate": "2026-04-20"
 }
-  ```
+```
 <img width="400" alt="Zrzut ekranu 2024-10-5 o 18 16 29" src="https://github.com/user-attachments/assets/2031c67d-89a8-401f-82a9-38355867204d">
 
 # 4. DELETE farm equipment
