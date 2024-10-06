@@ -1,4 +1,4 @@
-# 1. GET all farm equipment
+# 1. GET farm equipment list
 * GET
 * path: ```/api/equipment/all```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
