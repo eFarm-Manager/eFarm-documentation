@@ -60,7 +60,7 @@
 
 <img width="400" alt="Zrzut ekranu 2024-10-8 o 20 01 05" src="https://github.com/user-attachments/assets/1c32c523-8966-4b1e-8100-2e0f0d0bb06a">
 
-# 4. Delete landparcel
+# 5. Delete landparcel
 * DELETE
 * path: ```/api/landparcel/{id}```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
