@@ -56,8 +56,7 @@
     "area": 10.53
 }
 ```
-* Description:
-- In the case of update data, it is only allowed for the above parameters
+* Description: In the case of update data, it is only allowed for the above parameters
 
 <img width="400" alt="Zrzut ekranu 2024-10-8 o 20 01 05" src="https://github.com/user-attachments/assets/1c32c523-8966-4b1e-8100-2e0f0d0bb06a">
 
