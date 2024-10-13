@@ -12,3 +12,11 @@
 * Notification recipients: ```Farm OWNERs```
 
 <img width="500" alt="Zrzut ekranu 2024-10-6 o 17 14 55" src="https://github.com/user-attachments/assets/df798a5d-5f08-4bab-9cf4-a58db0d7b25d">
+
+# 3. Deadline for payment of the invoice
+* Notification occurs: ```5, 1 days before the deadline```
+* Notification starts: ```at 7:00 AM```
+* Notification recipients: ```Farm OWNERs```
+
+  
+<img width="400" alt="Zrzut ekranu 2024-10-13 o 18 48 51" src="https://github.com/user-attachments/assets/00ad770c-dbca-4b58-8a39-88b085e41055">
