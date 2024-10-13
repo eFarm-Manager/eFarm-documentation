@@ -97,8 +97,24 @@
 ```
 <img width="400" alt="Zrzut ekranu 2024-10-2 o 11 00 53" src="https://github.com/user-attachments/assets/e92fb735-4d12-4d49-90a8-5d90fa73b6fd">
 
+# 6.Update password
+* PUT
+* path: ```/api/auth/change-password```
+* Required role: NONE
+* Example body:
 
-# 6.Signout any user
+```json
+{
+    "currentPassword": "pass1234",
+    "newPassword": "pass123"
+}
+```
+
+![Zrzut ekranu 2024-10-13 o 18 45 26](https://github.com/user-attachments/assets/7ef3491a-202c-4a0d-9fdf-0c9350c2d542)
+
+
+
+# 7.Signout any user
 * POST
 * path: ```/api/auth/signout```
 * Required role: NONE
