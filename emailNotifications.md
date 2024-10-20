@@ -27,5 +27,5 @@
 * Notification starts: ```at 7:00 AM```
 * Notification recipients: ```Farm OWNERs```
   
-<img width="913" alt="Zrzut ekranu 2024-10-18 o 19 18 03" src="https://github.com/user-attachments/assets/aebd5bb2-da09-4ae7-a0b0-bec8c5a85bde">
+<img width="400" alt="Zrzut ekranu 2024-10-18 o 19 18 03" src="https://github.com/user-attachments/assets/aebd5bb2-da09-4ae7-a0b0-bec8c5a85bde">
 
