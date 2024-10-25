@@ -3,10 +3,11 @@
 * path: ```/api/records/all```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"``` or ```"ROLE_FARM_EQUIPMENT_OPERATOR"```
 * Example body: NONE
-* Optional parameters:
-  - season
-  - searchQuery
+* Request param:
+  - Optional String: ```season```
+  - Optional String: ```searchQuery```
 
+<img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 25" src="https://github.com/user-attachments/assets/d6159e3c-ce42-4e69-8e74-e3b6be83eec6">
 
 
 # 2. Add new record for landparcel (second crop)
@@ -23,6 +24,7 @@
     "landparcelId": 4
 }
 ```
+<img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 38" src="https://github.com/user-attachments/assets/dd1a58a2-3607-4e7a-8af7-9400db816aeb">
 
 # 3. Update agriculture record
 * PUT
@@ -37,12 +39,16 @@
 }
 ```
 
+<img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 48" src="https://github.com/user-attachments/assets/a5ca5222-6d18-4f31-bd72-19ff8835a806">
+
+
 # 4. Get available seasons
 * GET
 * path: ```/api/records/available-seasons```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
 * Example body: NONE
 
+<img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 58" src="https://github.com/user-attachments/assets/bd13b7a3-51cd-42af-9b32-dade1751506e">
 
 # 5. Get available crops
 * GET
@@ -50,4 +56,5 @@
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
 * Example body: NONE
 
+<img width="400" alt="Zrzut ekranu 2024-10-25 o 20 52 05" src="https://github.com/user-attachments/assets/73268049-3c7f-4da8-a5cc-87ea0f27c8c8">
 
