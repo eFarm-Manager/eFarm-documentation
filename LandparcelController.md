@@ -29,11 +29,13 @@
 ```json
 {
     "landOwnershipStatus": "STATUS_PRIVATELY_OWNED",
+    "name": "Nowe pole2",
     "voivodeship": "świętokrzyskie",
-    "district": "Rzeszowskie",
+    "district": "Kaszubowski",
     "commune": "Dęblin",
-    "geodesyRegistrationDistrictNumber": "488",
-    "landparcelNumber": "2593/4",
+    "geodesyDistrictNumber": "488",
+    "landparcelNumber": "2593/8",
+    "geodesyLandparcelNumber": "152436_1.2868/5",
     "longitude": 23.9973,
     "latitude": 49.6309,
     "area": 13.53
@@ -51,9 +53,10 @@
 ```json
 {
     "landOwnershipStatus": "STATUS_PRIVATELY_OWNED",
+    "name": null,
     "longitude": 23.9973,
-    "latitude": 49.6309,
-    "area": 10.53
+    "latitude": 49.63789,
+    "area": 19.53
 }
 ```
 * Description: In the case of update data, it is only allowed for the above parameters
