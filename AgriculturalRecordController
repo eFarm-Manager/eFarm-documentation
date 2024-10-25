@@ -14,6 +14,7 @@
 * path: ```/api/records/add-new-record```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
 * Example body:
+
 ```json
 {
     "cropName": "arbuz",
