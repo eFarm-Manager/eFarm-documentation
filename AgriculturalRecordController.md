@@ -33,6 +33,7 @@
 * Example body: NONE
 * Request Params:
   - Required String: ```seasonName```
+
  
   <img width="400" alt="Zrzut ekranu 2024-10-26 o 23 11 13" src="https://github.com/user-attachments/assets/61140ed3-bff8-46ee-bcba-ad10b6e93a77">
 
