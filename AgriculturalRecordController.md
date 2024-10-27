@@ -39,7 +39,7 @@
 
 # 4. Update agriculture record
 * PUT
-* path: ```/api/records/add-new-record```
+* path: ```/api/records/{agricultureRecordId}```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
 * Example body:
 ```json
@@ -53,7 +53,16 @@
 <img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 48" src="https://github.com/user-attachments/assets/a5ca5222-6d18-4f31-bd72-19ff8835a806">
 
 
-# 5. Get available seasons
+# 5. Delete agriculture record
+* DELETE
+* path: ```/api/records/{agricultureRecordId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
+* Example body: NONE
+
+<img width="400" alt="Zrzut ekranu 2024-10-27 o 10 38 01" src="https://github.com/user-attachments/assets/0bcc636f-2bcf-4e74-a6aa-cdf66f88ade8">
+
+
+# 6. Get available seasons
 * GET
 * path: ```/api/records/available-seasons```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
@@ -61,7 +70,7 @@
 
 <img width="400" alt="Zrzut ekranu 2024-10-25 o 20 51 58" src="https://github.com/user-attachments/assets/bd13b7a3-51cd-42af-9b32-dade1751506e">
 
-# 6. Get available crops
+# 7. Get available crops
 * GET
 * path: ```/api/records/available-crops```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```"ROLE_FARM_MANAGER"```
