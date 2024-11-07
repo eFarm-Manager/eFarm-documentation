@@ -19,9 +19,25 @@
 }
 ```
 
-<img width="400" alt="Zrzut ekranu 2024-11-5 o 20 57 25" src="https://github.com/user-attachments/assets/1b69096b-b11e-4569-ade5-55886872f7c2">
-
-
-Obecnie:
-
 ![Screenshot from 2024-11-05 21-27-12](https://github.com/user-attachments/assets/6c8f9ddc-f4d6-4bd6-988a-eb543d9008e0)
+
+# 2. Get Agro Activities list for agricultural record
+* GET
+* path: ```/api/agro-activities/{agriculturalRecordId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body: NONE
+* Params: NONE
+
+<img width="400" alt="Zrzut ekranu 2024-11-7 o 13 43 34" src="https://github.com/user-attachments/assets/497a8a29-3889-4e8e-8958-2d7ac465b8c0">
+
+
+# 3. Get Agro Activity details
+* GET
+* path: ```/api/agro-activities/details/{agroActivityId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body: NONE
+* Params: NONE
+
+
+<img width="400" alt="Zrzut ekranu 2024-11-7 o 13 45 44" src="https://github.com/user-attachments/assets/f72c694f-3cb6-4dae-a13c-c1542b59127b">
+
