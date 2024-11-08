@@ -41,3 +41,45 @@
 
 <img width="400" alt="Zrzut ekranu 2024-11-7 o 13 45 44" src="https://github.com/user-attachments/assets/f72c694f-3cb6-4dae-a13c-c1542b59127b">
 
+
+# 4. Update Agro Activity
+* PUT
+* path: ```/api/agro-activities/{agroActivityId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body:
+
+```json
+{
+    "name": "Oprysk chwastobójczy numer 3",
+    "activityCategoryName": "Opryskiwanie herbicydami",
+    "date": "2024-11-06T11:26:00.254429Z",
+    "isCompleted": true,
+    "usedSubstances": "Corteva Navigator 360SL",
+    "appliedDose": " 3,5 L/ha",
+    "description": "Na polach występuje wiele chwastów",
+    "operatorIds": [6, 14, 24],
+    "equipmentIds": [2, 4]
+}
+```
+
+<img width="400" alt="Zrzut ekranu 2024-11-8 o 18 30 43" src="https://github.com/user-attachments/assets/75f1c4cc-905d-446f-b6a5-8dd614507aa3">
+
+# 5. Delete Agro Activity
+* DELETE
+* path: ```/api/agro-activities/{agroActivityId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body: NONE
+
+
+<img width="400" alt="Zrzut ekranu 2024-11-8 o 18 30 50" src="https://github.com/user-attachments/assets/33fb9eeb-70ae-42cb-b56c-107f7efaa81d">
+
+# 5. Get all activity category names
+* GET
+* path: ```/api/agro-activities/available-category```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Example body: NONE
+* Request param: NONE
+
+<img width="400" alt="Zrzut ekranu 2024-11-8 o 18 30 59" src="https://github.com/user-attachments/assets/100a5064-3bac-405b-ae19-86a287658f01">
+
+
