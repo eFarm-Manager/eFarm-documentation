@@ -34,7 +34,7 @@
 # 3. Get Agro Activity details
 * GET
 * path: ```/api/agro-activities/details/{agroActivityId}```
-* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER``` or ```ROLE_FARM_EQUIPMENT_OPERATOR```
 * Example body: NONE
 * Request param: NONE
 
@@ -81,5 +81,6 @@
 * Request param: NONE
 
 <img width="400" alt="Zrzut ekranu 2024-11-8 o 18 30 59" src="https://github.com/user-attachments/assets/100a5064-3bac-405b-ae19-86a287658f01">
+
 
 
