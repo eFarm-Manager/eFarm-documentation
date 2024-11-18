@@ -73,7 +73,27 @@
 
 <img width="400" alt="Zrzut ekranu 2024-11-8 o 18 30 50" src="https://github.com/user-attachments/assets/33fb9eeb-70ae-42cb-b56c-107f7efaa81d">
 
-# 5. Get all activity category names
+
+# 5. Get all tasks for logged user
+* GET
+* path: ```/api/agro-activities/assigned```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER``` or ```ROLE_FARM_EQUIPMENT_OPERATOR```
+* Example body: NONE
+* Request param: NONE
+
+
+<img width="400" alt="Zrzut ekranu 2024-11-18 o 21 46 41" src="https://github.com/user-attachments/assets/f22999f7-3254-438a-a11e-43751b107b55">
+
+# 6. Mark task as completed
+* PATCH
+* path: ```/api/agro-activities/complete/{activityId}```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER``` or ```ROLE_FARM_EQUIPMENT_OPERATOR```
+* Example body: NONE
+
+<img width="400" alt="Zrzut ekranu 2024-11-18 o 21 46 33" src="https://github.com/user-attachments/assets/59f99d91-390e-4f8e-a95b-e4c9a911d65d">
+
+
+# 7. Get all activity category names
 * GET
 * path: ```/api/agro-activities/available-category```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
