@@ -29,3 +29,19 @@
   
 <img width="400" alt="Zrzut ekranu 2024-10-18 o 19 18 03" src="https://github.com/user-attachments/assets/aebd5bb2-da09-4ae7-a0b0-bec8c5a85bde">
 
+# 5. Farm deletion Notification
+* Notification occurs: ```3, 2, 1 days before the expire```
+* Notification starts: ```Every monday at midnight```
+* Notification recipients: ```Farm OWNERs```
+
+![Zrzut ekranu 2024-11-21 o 14 40 00](https://github.com/user-attachments/assets/5a2307a0-c87f-48df-b095-072036cdcdac)
+
+# 6. Needed help Notification
+* Notification occurs: ```when called```
+* Notification starts: ```when called```
+* Notification recipients: ```All selected and active users```
+
+![Zrzut ekranu 2024-11-21 o 14 39 45](https://github.com/user-attachments/assets/28dfab74-5e83-4e60-828f-9b8b267c63ea)
+
+
+
