@@ -92,8 +92,25 @@
 
 <img width="400" alt="Zrzut ekranu 2024-11-18 o 21 46 33" src="https://github.com/user-attachments/assets/59f99d91-390e-4f8e-a95b-e4c9a911d65d">
 
+# 7. Needed help Request
+* POST
+* path: ```/api/agro-activities/needed-help```
+* Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER``` or ```ROLE_FARM_EQUIPMENT_OPERATOR```
+* Example body:
 
-# 7. Get all activity category names
+```json
+{
+    "name": "Potrzebna pomoc przy zbiorach",
+    "description": "Potrzebujemy pomocy przy zbiorze jabłek na działce A.",
+    "landparcelId": 1,
+    "operatorIds": [6, 24],
+    "equipmentIds": [1, 2, 4]
+}
+```
+<img width="400" alt="Zrzut ekranu 2024-11-21 o 14 33 10" src="https://github.com/user-attachments/assets/38b593c2-e124-48d0-bab0-87c1abc08696">
+
+
+# 8. Get all activity category names
 * GET
 * path: ```/api/agro-activities/available-category```
 * Required role: ```"ROLE_FARM_OWNER"``` or ```ROLE_FARM_MANAGER```
